@@ -87,12 +87,9 @@ img{
   gap: 16px;                 /* Adds clean space between images */
   flex-wrap: wrap;           /* Stacks images on smaller mobile screens */
 }
-.row2 {
-  display: flex;             /* Places images side-by-side */
-  justify-content: center;   /* Centers the group horizontally */
-  align-items: center;       /* Centers images vertically if heights differ */
-  gap: 16px;                 /* Adds clean space between images */
-  flex-wrap: wrap;           /* Stacks images on smaller mobile screens */
+iframe{
+    display: block;
+    margin: 0 auto;
 }
 /*MENU DIV*/
 /*#menu {
